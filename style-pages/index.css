@@ -1,0 +1,46 @@
+:root {
+  --light : #707793;
+  --dark : #2E3047 ;
+}
+
+body {
+    background-color:  #3C3F58 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14px;
+    /* background-color: var(--light)  */
+}
+
+
+header{
+  background-color: var(--dark) ;
+  
+  display: flex ;
+  color: black;
+  border-radius: 4px ;
+  padding: 7px;
+  font-weight: 700 ;
+  font-size: 19px;
+  align-items: center;
+  position: sticky ;
+}
+.header-menu{
+  /* background-color: red; */
+  /* text-align: center ; */
+  padding: 0px;
+  color: none ;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  justify-content: center ;
+  align-items: center;
+  display: flex ; 
+  
+}
+.header-content{
+  background-color: none;
+  color: white;
+  width: 100% ;
+  text-align: center;
+}
+
+
