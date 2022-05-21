@@ -20,24 +20,27 @@ chead{
   padding-bottom: 0px ;
   padding-top: 4px ;
   width: 100% ;
+  text-align: left;
 }
 cpara{
   color: black ;
-  padding-left: 12px ;
+  padding-left: 4px ;
   padding-top: 10px ;
   font-weight: 500;
   display: block ;
   text-align: left ;
   padding-right: 12px ;
    width: 100% ;
+   box-sizing: border-box;
 }
 card {
+  /*border : 2px solid red ;*/
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
   font-size: 14pt;
   padding: 10px;
   margin: 10px;
   border-radius:  7px ; 
-  display: block;
+  display:  block;
   min-width: 200px;
   max-width: 200px;
   min-height: 200px;
@@ -47,3 +50,5 @@ card {
   /* background-color: lightblue; */
   /* background-color: var(--cardHeaderColor); */
 }
+
+

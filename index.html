@@ -17,20 +17,42 @@
 <body>
   <!-- <p class="index-heading">Microprocessor</p> -->
 <header> 
-<div class="header-menu"></div>
+<div class="header-menu" onclick="showSidebar()"></div>
 <div class="header-content"></div>
 </header>
 
-<div cte>
+<sidebar class="sidebar-index">
+   <button type="submit" style="margin: 20px" onclick="closeSidebar()">close</button>
+   <br><br>
+   <div>Home</div>
+   <div>Practical</div>
+   <div>Tutorial</div> 
+   <div>Practice Quiz</div>
+   <div>Share</div>
+   
+   
+</sidebar>
+
+<div class="continue" >
+<center>
   
-<card>
+
+<card class="continue">
   <chead class="chead-notes"></chead>
   <cpara class="cpara-notes"></cpara>
 </card>
 
+<card class="continue">
+  <chead class="chead-prac"></chead>
+  <cpara class="cpara-prac"></cpara>
+</card>
 
-
+<card class="continue">
+  <chead class="chead-tut"></chead>
+  <cpara class="cpara-tut"></cpara>
+</card>
 </center>
+</div>
 
 
 

@@ -3,8 +3,11 @@ var header_menu = document.getElementsByClassName("header-menu")[0] ;
 var folder = document.getElementsByClassName("header-menu")[0] ;
 var card_notes_head = document.getElementsByClassName("chead-notes")[0];
 var card_notes_para = document.getElementsByClassName("cpara-notes")[0];
-
-
+var card_prac_head = document.getElementsByClassName("chead-prac")[0];
+var card_prac_para = document.getElementsByClassName("cpara-prac")[0];
+var card_tut_head = document.getElementsByClassName("chead-tut")[0];
+var card_tut_para = document.getElementsByClassName("cpara-tut")[0];
+var sidebar = document.getElementsByClassName("sidebar-index")[0];
 
 
 
@@ -15,16 +18,29 @@ card_notes_head.innerHTML = "Microprocessor Notes" ;
 card_notes_para.innerHTML = `Here you get, <br><br> Imprtant Notes Regarding Microprocessor chapter to have a good grab over this subject`;
 header_menu.innerText = "📂"
 header_index.innerText = "Microprocessor"
+card_prac_head.innerHTML = "Practicals"
+card_prac_para.innerHTML = "A wide range of practical, <br><br> performed by best professor of india and, <br> their copies are available here "
+card_tut_head.innerHTML = "Tutorials "
+card_tut_para.innerHTML = "Here,You will get  <br><br>Hundreds of youtube tutorial video from where you can learn and make out something productive but try to make something inovative"
 
 
+function showSidebar(){
+ //    var sidebar = document.getElementsByClassName("sidebar-index");
+     sidebar.style.display = "block" ;
+ //  var sidebar = document.getElementsByClassName("sidebar-index")
+}
 
-
-
+function closeSidebar(){
+  sidebar.style.display ="none";
+}
 
 folder.addEventListener(
   "click",
   ()=>{
     let msg = "folder is clicked"
     console.log(msg)
+    var sidebar = document.getElementsByClassName("sidebar-index")
+    console.log(sidebar)
+    
   //function ends here
   })

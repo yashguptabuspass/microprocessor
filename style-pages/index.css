@@ -29,7 +29,7 @@ header{
   padding: 0px;
   color: none ;
   width: 30px;
-  height: 30px;
+  height: 30px;;;
   border-radius: 50%;
   justify-content: center ;
   align-items: center;
@@ -41,6 +41,36 @@ header{
   color: white;
   width: 100% ;
   text-align: center;
+}
+
+.continue{
+  display: inline-table;
+}
+
+sidebar {
+  margin: 10px 0 ;
+  padding: 0;
+  display: block;
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+  height: 97%;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  background-color: white;
+  transition: all 1s ease-in-out;
+  border: 3px solid #3BB9AC;
+  font-size: 20px;
+  
+  
+  
+}
+.sidebar::hover {
+  width: 150px ;
 }
 
 
