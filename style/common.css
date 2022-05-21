@@ -1,5 +1,6 @@
 /* cardheader = mint */
 /* cardbg = dark */
+
 :root{
   --white : white;
   --cardBG : white ;
@@ -7,6 +8,11 @@
   /* --cardBG : # ; */
   /* --cardBG : #3C3F58 ; */
 }
+a{
+  text-decoration: none;
+  color :auto ; 
+}
+
 chead{
   /* background-color: white  ;*/
   background-color: var(--cardHeaderColor);

@@ -8,7 +8,7 @@ var card_prac_para = document.getElementsByClassName("cpara-prac")[0];
 var card_tut_head = document.getElementsByClassName("chead-tut")[0];
 var card_tut_para = document.getElementsByClassName("cpara-tut")[0];
 var sidebar = document.getElementsByClassName("sidebar-index")[0];
-
+var closebtn = document.getElementById("closebtn-index");
 
 
 
@@ -26,21 +26,11 @@ card_tut_para.innerHTML = "Here,You will get  <br><br>Hundreds of youtube tutori
 
 function showSidebar(){
  //    var sidebar = document.getElementsByClassName("sidebar-index");
-     sidebar.style.display = "block" ;
+     sidebar.style.left = "0px" ;
  //  var sidebar = document.getElementsByClassName("sidebar-index")
 }
 
 function closeSidebar(){
-  sidebar.style.display ="none";
+  sidebar.style.left ="-350px";
 }
 
-folder.addEventListener(
-  "click",
-  ()=>{
-    let msg = "folder is clicked"
-    console.log(msg)
-    var sidebar = document.getElementsByClassName("sidebar-index")
-    console.log(sidebar)
-    
-  //function ends here
-  })

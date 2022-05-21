@@ -17,13 +17,16 @@
 <body>
   <!-- <p class="index-heading">Microprocessor</p> -->
 <header> 
-<div class="header-menu" onclick="showSidebar()"></div>
+<div  onclick="showSidebar()">
+  <button type="" class="header-menu"></button>
+</div>
 <div class="header-content"></div>
 </header>
 
 <sidebar class="sidebar-index">
-   <button type="submit" style="margin: 20px" onclick="closeSidebar()">close</button>
+   <button id ="closebtn-index" style="margin: 20px" onclick="closeSidebar()">❌</button>
    <br><br>
+   
    <div>Home</div>
    <div>Practical</div>
    <div>Tutorial</div> 
@@ -36,11 +39,14 @@
 <div class="continue" >
 <center>
   
-
+  
 <card class="continue">
+<a href="chapters/chapterlist.html" style="color: black">
   <chead class="chead-notes"></chead>
   <cpara class="cpara-notes"></cpara>
+</a>
 </card>
+
 
 <card class="continue">
   <chead class="chead-prac"></chead>

@@ -26,14 +26,16 @@ header{
 .header-menu{
   /* background-color: red; */
   /* text-align: center ; */
-  padding: 0px;
+  font-size: 19px;
+  padding: 3px;
   color: none ;
   width: 30px;
   height: 30px;;;
-  border-radius: 50%;
+  border-radius: 0%;
   justify-content: center ;
   align-items: center;
-  display: flex ; 
+  display: flex ;
+  background-color: var(--dark)
   
 }
 .header-content{
@@ -48,29 +50,40 @@ header{
 }
 
 sidebar {
-  margin: 10px 0 ;
+  margin: 11px 0 ;
   padding: 0;
   display: block;
   position: fixed;
   z-index: 3;
-  background-color: white;
   height: 97%;
   width: 300px;
   top: 0px;
-  left: 0px;
+  left: -350px;
   border-radius: 8px;
   margin-bottom: 50px;
-  margin-left: 0px;
-  background-color: white;
-  transition: all 1s ease-in-out;
-  border: 3px solid #3BB9AC;
+  margin-left: 8px;
+  background-color: #2E3047;
+  transition: all 0.5s ease-in-out;
+  border: 7px solid #3BB9AC;
+  border-left: none;
+  border-top: none;
   font-size: 20px;
-  
-  
-  
+  padding: 20px;
 }
-.sidebar::hover {
-  width: 150px ;
+#closebtn-index{
+  font-size: 17px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #2E3047;
 }
-
-
+sidebar:hover {
+  width: 250px ;
+}
+sidebar div {
+  background-color: white;
+  padding: 6px;
+  margin: 7px;
+  padding-left: 25px;
+  border-radius: 6px;
+  width: 90%;
+}
